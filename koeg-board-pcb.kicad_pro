@@ -526,6 +526,14 @@
       {
         "netclass": "PWR",
         "pattern": "5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "LED_5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBAT"
       }
     ]
   },
