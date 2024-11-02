@@ -1,0 +1,1 @@
+This is my first PCB design, a wireless low profile split keyboard with RGB, based on the nrf5280 SOC. I tried to fit things in as tightly as possible. I used an autoroute (freerouting) to make the easy connections, and the ones it couldn't do I did. Furthermore, I use a PCB antenna. I use a voltage regulator and a level shifter for the LEDs.
