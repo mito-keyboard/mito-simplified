@@ -2354,6 +2354,17 @@
 		)
 		(uuid "fd2df88e-ec74-487a-ae7d-d2a523fb48f7")
 	)
+	(label "LED_5V"
+		(at 96.52 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d0c6d09-2d6d-487f-9673-2e8e7b05afc1")
+	)
 	(label "DATA"
 		(at 82.55 40.64 0)
 		(fields_autoplaced yes)
@@ -3343,7 +3354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.8348 77.47 0)
 			(effects
 				(font
@@ -3811,7 +3822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 80.01 0)
 			(effects
 				(font
@@ -4896,7 +4907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 80.01 0)
 			(effects
 				(font
@@ -5425,7 +5436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcd180da-8d06-4346-b5dc-6203c91704be")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 88.9 74.9299 0)
 			(effects
 				(font
