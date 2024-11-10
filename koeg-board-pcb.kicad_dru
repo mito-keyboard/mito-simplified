@@ -101,7 +101,7 @@
 
 (rule "JLCPCB: Pad to Pad Clearance (Pad without Hole, Different Nets)"
 	(condition "A.Type == 'Pad' && (A.Pad_Type != 'Through-hole' && A.Pad_Type != 'NPTH, mechanical') && B.Type == 'Pad' && (B.Pad_Type != 'Through-hole' && B.Pad_Type != 'NPTH, mechanical') && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.12mm))
 )
 
 (rule "JLCPCB: Pad Hole to Pad Hole Clearance (Pad with Hole, Different Nets)"
@@ -112,7 +112,7 @@
 # NOTE: This is not stated specifically, but is implied by other rules.
 (rule "JLCPCB: Via/Pad to Via/Pad Clearance (Different Nets)"
 	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")
-	(constraint clearance (min 0.127mm))
+	(constraint clearance (min 0.12mm))
 )
 
 # NOTE: This is not stated specifically, but is implied by other rules.
@@ -160,7 +160,7 @@
 	(condition "A.Type == 'Track' && B.Type == 'Track'")
   # Choose between:
   # 1-2 Layers (1oz)
-  # (constraint clearance (min 0.127mm))
+  # (constraint clearance (min 0.12mm))
   # 4-6 Layers (1oz and 0.5oz)
 	(constraint clearance (min 0.09mm))
   # 1-6 Layers (2oz)
