@@ -2275,6 +2275,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 74.93) (xy 93.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377fd4c9-e42c-4683-8445-39b9add40d9a")
+	)
+	(wire
+		(pts
 			(xy 218.44 110.49) (xy 218.44 109.22)
 		)
 		(stroke
@@ -2815,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 82.55) (xy 93.98 81.28)
+			(xy 93.98 83.82) (xy 93.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3423,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 77.47 0)
+		(at 93.98 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3441,7 @@
 		(dnp no)
 		(uuid "4ffb0649-a1b2-4c51-95bf-c39098b02954")
 		(property "Reference" "R15"
-			(at 88.138 76.454 0)
+			(at 88.138 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3450,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 88.138 78.994 0)
+			(at 88.138 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 92.202 77.47 90)
+			(at 92.202 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 77.47 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3477,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 77.47 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3864,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 82.55 0)
+		(at 93.98 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3862,7 +3872,7 @@
 		(dnp no)
 		(uuid "95ce9236-a7a1-44b2-ad8a-cf60afef6238")
 		(property "Reference" "#PWR04"
-			(at 93.98 88.9 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.044 84.582 0)
+			(at 98.044 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 82.55 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 82.55 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 82.55 0)
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
