@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LPS3015-222MRC")(type "KiCad")(uri "${KIPRJMOD}/external/LPS3015-222MRC")(options "")(descr ""))
+  (lib (name "panelization")(type "KiCad")(uri "${KIPRJMOD}/external/Panelization.pretty")(options "")(descr ""))
+)
