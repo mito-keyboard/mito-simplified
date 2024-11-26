@@ -4745,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 219.71 130.81)
+			(xy 151.13 130.81) (xy 219.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7192,13 +7192,13 @@
 		(uuid "abb5ec0d-688c-4b12-ba17-a3758cf914f9")
 	)
 	(label "ROW4"
-		(at 156.21 130.81 180)
+		(at 151.13 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b0648521-2ce8-4320-8e96-7feef21cd787")
 	)
