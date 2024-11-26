@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20241004)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "2b736a6b-c6e2-42fa-94c9-e384d663659b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:Antenna_Chip"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -93,7 +97,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 2.54 0)
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -117,10 +133,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.635) (xy 2.54 0)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -141,10 +157,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+						(xy 2.54 -0.635) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -154,18 +170,6 @@
 				(polyline
 					(pts
 						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -214,6 +218,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
@@ -293,12 +298,100 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -389,7 +482,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 107.95 103.505)
+		(end 121.285 121.285)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08128141-264b-472f-8efd-7433adc426bb)
+	)
+	(text "Fidutilas\n\n"
+		(exclude_from_sim no)
+		(at 112.522 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6f16493-bbe7-4aee-ae4d-f2e14221078b")
 	)
 	(wire
 		(pts
@@ -430,28 +546,6 @@
 			(type default)
 		)
 		(uuid "e514ee25-ad75-47db-aafd-4af6582b7a27")
-	)
-	(rectangle
-		(start 107.95 103.505)
-		(end 121.285 121.285)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 08128141-264b-472f-8efd-7433adc426bb)
-	)
-	(text "Fidutilas\n\n"
-		(exclude_from_sim no)
-		(at 112.522 106.172 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6f16493-bbe7-4aee-ae4d-f2e14221078b")
 	)
 	(symbol
 		(lib_id "Device:Antenna_Chip")
@@ -518,6 +612,70 @@
 			(project "koeg-board-pcb"
 				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
 					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79fb284e-6bf2-4303-8733-4e9e7f0171f0")
+		(property "Reference" "BO3"
+			(at 92.71 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "break off"
+			(at 92.71 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "panelization:mouse-bite-2mm-slot"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "koeg-board-pcb"
+				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
+					(reference "BO3")
 					(unit 1)
 				)
 			)
@@ -718,6 +876,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5cd3157-4a07-49ac-91f3-2adae955b716")
+		(property "Reference" "BO2"
+			(at 92.71 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "break off"
+			(at 92.71 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "panelization:mouse-bite-2mm-slot"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 90.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "koeg-board-pcb"
+				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
+					(reference "BO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.83 142.24 0)
 		(unit 1)
@@ -778,6 +1000,70 @@
 			(project "koeg-board-pcb"
 				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 90.17 110.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b3b8a8-076c-4e1a-99a8-959ac48a53a5")
+		(property "Reference" "BO1"
+			(at 92.71 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "break off"
+			(at 92.71 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "panelization:mouse-bite-2mm-slot"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
+					(reference "BO1")
 					(unit 1)
 				)
 			)
@@ -920,6 +1206,10 @@
 	(sheet
 		(at 129.54 134.62)
 		(size 17.145 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -949,13 +1239,13 @@
 		)
 		(pin "ANT" output
 			(at 146.685 139.7 0)
+			(uuid "23d3cb72-88d6-4c2e-8f30-4f346f5ff00d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "23d3cb72-88d6-4c2e-8f30-4f346f5ff00d")
 		)
 		(instances
 			(project "koeg-board-pcb"
@@ -968,6 +1258,10 @@
 	(sheet
 		(at 127 100.33)
 		(size 17.145 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -997,13 +1291,13 @@
 		)
 		(pin "ANT" output
 			(at 144.145 105.41 0)
+			(uuid "876b0dcb-95a5-4dfa-9550-16e1e42e8c54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "876b0dcb-95a5-4dfa-9550-16e1e42e8c54")
 		)
 		(instances
 			(project "koeg-board-pcb"
@@ -1018,4 +1312,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
