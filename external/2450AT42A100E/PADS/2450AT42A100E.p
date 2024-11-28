@@ -1,0 +1,19 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+2450AT42A100E ANTC5020X110N I ANA 7 1 0 0 0
+TIMESTAMP 2024.11.28.18.07.02
+"Mouser Part Number" 609-2450AT42A100E
+"Mouser Price/Stock" https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT42A100E?qs=yCnrNFeXz%252BhaJmvBFFPWJQ%3D%3D
+"Manufacturer_Name" JOHANSON TECHNOLOGY
+"Manufacturer_Part_Number" 2450AT42A100E
+"Description" JOHANSON TECHNOLOGY - 2450AT42A100E - ANTENNA, 2.4GHZ
+"Datasheet Link" 
+"Geometry.Height" 1.1mm
+GATE 1 2 0
+2450AT42A100E
+1 0 L FEED
+2 0 U NC
+
+*END*
+*REMARK* SamacSys ECAD Model
+1186155/1458841/2.50/2/3/Antenna

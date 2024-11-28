@@ -1,0 +1,9 @@
+Manufacturer=JOHANSON TECHNOLOGY
+PartNumber=2450AT42A100E
+PartCategory=Antenna
+PackageCategory=Antennas Chip
+PinCount=2
+Version=2.1
+Released=2019-03-09 07:27:49
+Downloaded=2024-11-28 18:07:02
+3D=Y
