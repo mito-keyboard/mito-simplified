@@ -3370,6 +3370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 210.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "869e9065-a009-49f5-a3e5-61e152f54d10")
 		)
@@ -3449,6 +3458,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d917f27a-ade8-4c99-98c8-e65488b808be")
 		)
@@ -3514,6 +3532,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 256.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 256.54 58.42 0)
 			(effects
 				(font
@@ -3601,6 +3628,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "689e0cd1-2281-47f3-86c0-7fe3c71f53d1")
 		)
@@ -3666,6 +3702,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -3747,6 +3792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b1b20ad-be75-4032-aa03-f0ccdc362cf0")
 		)
@@ -3812,6 +3866,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -4105,6 +4168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "444ac6c5-0ed4-4583-b270-fcea0cd6c28e")
 		)
@@ -4170,6 +4242,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -4248,6 +4329,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -4404,6 +4494,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 241.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4b76e5a-8d37-4739-b418-b1915246a59b")
 		)
@@ -4483,6 +4582,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e993fda-e846-4069-aaf2-2283e10a8a1e")
 		)
@@ -4549,6 +4657,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -4796,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C916396"
+		(property "LCSC" "C916396"
 			(at 43.18 101.6 0)
 			(effects
 				(font
@@ -4872,6 +4989,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 195.58 39.37 0)
 			(effects
 				(font
@@ -4959,6 +5085,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28c4d41f-77ed-4985-a320-2afbdbc44766")
 		)
@@ -5030,6 +5165,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -5111,6 +5255,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb758f00-8575-4909-8174-27b7026921fd")
 		)
@@ -5184,6 +5337,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e2c1541-6784-4c1b-aab6-1789a0f2f2bc")
 		)
@@ -5249,6 +5411,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 195.58 58.42 0)
 			(effects
 				(font
@@ -5407,6 +5578,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 156.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfc4febd-d3f6-415c-9d41-0c2f8043933e")
 		)
@@ -5472,6 +5652,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -5559,6 +5748,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e470aea-d1e6-4803-b090-3ced317c4e6f")
 		)
@@ -5623,6 +5821,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 210.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -5710,6 +5917,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67fcae06-e0aa-4fd2-a9aa-905e200a407c")
 		)
@@ -5781,6 +5997,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 138.43 44.45 0)
 			(effects
 				(font
@@ -5863,6 +6088,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6bca48d0-e2fa-4cd1-9c42-eea0467b83ea")
 		)
@@ -5928,6 +6162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -6010,6 +6253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 34.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd588523-0c5c-404e-8a58-4e759e073980")
 		)
@@ -6074,6 +6326,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 226.06 77.47 0)
 			(effects
 				(font
@@ -6161,6 +6422,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7541509-bf79-4fe0-b73d-8d15d7ccf1ea")
 		)
@@ -6225,6 +6495,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 195.58 77.47 0)
 			(effects
 				(font
@@ -6303,6 +6582,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 241.3 39.37 0)
 			(effects
 				(font
@@ -6549,6 +6837,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d127deed-a2a7-44b3-aff8-d522006eec1d")
 		)
@@ -6697,6 +6994,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25076"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e262c46-8317-4d8f-ae49-e3ec737d3530")
 		)
@@ -6761,6 +7067,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 256.54 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 256.54 39.37 0)
 			(effects
 				(font
@@ -6848,6 +7163,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5994fa9e-cbbd-4c55-9be5-6b406789071c")
 		)
@@ -6919,6 +7243,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 226.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 226.06 96.52 0)
 			(effects
 				(font
@@ -7006,6 +7339,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd55afb6-2376-445a-8563-206ed3dffda3")
 		)
@@ -7071,6 +7413,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 156.21 44.45 0)
 			(effects
 				(font
@@ -7221,6 +7572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7255b60-417e-4a04-98d4-1131557ecc78")
 		)
@@ -7291,6 +7651,15 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
+			(at 226.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
 			(at 226.06 39.37 0)
 			(effects
 				(font
@@ -7378,6 +7747,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a02e3db5-8b47-43d4-a959-e41a0cda015a")
 		)
@@ -7451,6 +7829,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60474"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "686ae07b-00b6-467b-8fd2-b1640e657ca3")
 		)
@@ -7516,6 +7903,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60474"
 			(at 138.43 59.69 0)
 			(effects
 				(font
