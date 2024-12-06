@@ -336,7 +336,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -348,7 +348,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -458,17 +458,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -479,6 +468,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -15696,7 +15696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa4f833-e46a-4963-8bec-8912ae9bfc40")
-		(property "Reference" "LOGO2"
+		(property "Reference" "LOGO1"
 			(at 113.03 13.335 0)
 			(effects
 				(font
@@ -15733,15 +15733,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 113.03 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 113.03 20.32 0)
 			(effects
 				(font

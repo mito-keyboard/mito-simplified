@@ -1950,7 +1950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "4.7k"
 			(at 65.278 160.274 0)
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25867"
+		(property "LCSC" "C25940"
 			(at 71.12 158.75 0)
 			(effects
 				(font
@@ -2498,7 +2498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "10k"
 			(at 127.762 152.146 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25867"
+		(property "LCSC" "C25744"
 			(at 121.92 153.67 0)
 			(effects
 				(font
