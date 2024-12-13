@@ -23,10 +23,17 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+freerouting.frb
+fp-lib-tablefp-info-cache
 
 # Exported BOM files
 *.xml
 *.csv
 
 # prod files
-./production/*
+/production/
+fabrication-toolkit-options.json
+
+
+# KiCad project files
+*.lck
