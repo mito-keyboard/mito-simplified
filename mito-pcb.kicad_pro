@@ -600,7 +600,7 @@
       "specctra_dsn": "",
       "step": "",
       "svg": "",
-      "vrml": "mito-pcb.wrl"
+      "vrml": "../../../designer_man/mito-case/mito-pcb.wrl"
     },
     "page_layout_descr_file": ""
   },
