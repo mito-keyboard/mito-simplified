@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241004)
+	(version 20241209)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "2b736a6b-c6e2-42fa-94c9-e384d663659b")
@@ -610,7 +610,7 @@
 			)
 		)
 		(instances
-			(project "koeg-board-pcb"
+			(project "mito-pcb"
 				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
 					(page "2")
 				)
@@ -652,7 +652,7 @@
 			)
 		)
 		(instances
-			(project "koeg-board-pcb"
+			(project "mito-pcb"
 				(path "/2b736a6b-c6e2-42fa-94c9-e384d663659b"
 					(page "4")
 				)
