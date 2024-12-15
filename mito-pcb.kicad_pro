@@ -600,7 +600,7 @@
       "plot": "C:/Users/lenovo/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "C:/Users/marce/Downloads/mito-pcb.step",
       "svg": "",
       "vrml": "../mito-case/mito-pcb.wrl"
     },
