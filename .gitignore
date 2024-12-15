@@ -33,6 +33,7 @@ fp-lib-tablefp-info-cache
 # prod files
 /production/
 fabrication-toolkit-options.json
+/pcbway_production/
 
 
 # KiCad project files
