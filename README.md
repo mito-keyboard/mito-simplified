@@ -26,6 +26,7 @@ Same for the filament i want to use
 ## Gallery
 
 ![close up of pcb](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/01000006536.jpg)
+![back of pcb](https://cloud-1shpt6j7k-hack-club-bot.vercel.app/01000006542.jpg)
 ![pcb with switches](https://cloud-lv4je0doo-hack-club-bot.vercel.app/011000006537.jpg)
 ![pcb with switches](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/21000006538.jpg)
 ![back of pcb with nrf52833](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/31000006539.jpg)
