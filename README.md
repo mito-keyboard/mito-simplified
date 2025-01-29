@@ -20,8 +20,8 @@ Same for the filament i want to use
 
 ## Related repos
 
-[The case](https://github.com/KOEGlike/mito-case)
-[Blender project for soon to be renders](https://github.com/KOEGlike/mito-blend)
+- [The case](https://github.com/KOEGlike/mito-case)
+- [Blender project for soon to be renders](https://github.com/KOEGlike/mito-blend)
 
 ## Gallery
 
