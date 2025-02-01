@@ -602,7 +602,7 @@
       "specctra_dsn": "",
       "step": "../../../../../../marce/Downloads/mito-pcb.step",
       "svg": "",
-      "vrml": "../../blender/mito-blend/mito-pcb.wrl"
+      "vrml": "../mito-case/mito-pcb.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -743,6 +743,14 @@
       "Root"
     ],
     [
+      "4bb325fd-7371-4bed-a032-a434391e94c9",
+      "left"
+    ],
+    [
+      "c494d7b9-5248-4bdc-95a2-93f561ccab0b",
+      "leds"
+    ],
+    [
       "8d53595d-91b9-4d70-adec-5245477c92d0",
       "right"
     ],
@@ -753,14 +761,6 @@
     [
       "a60d275f-cdae-4fef-bb61-3feb0db9295b",
       "power"
-    ],
-    [
-      "4bb325fd-7371-4bed-a032-a434391e94c9",
-      "left"
-    ],
-    [
-      "c494d7b9-5248-4bdc-95a2-93f561ccab0b",
-      "leds"
     ],
     [
       "a60d275f-cdae-4fef-bb61-3feb0db9295b",
