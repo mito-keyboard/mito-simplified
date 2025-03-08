@@ -2,17 +2,6 @@
 
 The pcb for my [custom keyboard](https://github.com/KOEGlike/mito)
 
-## Features
-
-- Split
-- Wireless
-- Per key RGB backlight
-- Low-profile khail choc switches
-- hot-swap compatible
-- transparent PETG case and plate
-- ZMK
-- NRF52833 soc
-
 ## Sponsor
 
 Much thanks to pcbway for sponsoring this project, the video is in the making, stay tuned! The PCBs and stencil are very high quality!!
