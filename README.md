@@ -18,23 +18,15 @@ Same for the filament i want to use
 - ZMK
 - NRF52833 soc
 
-## Related repos
+## Sponsor
 
-- [The case](https://github.com/KOEGlike/mito-case)
-- [Blender project for soon to be renders](https://github.com/KOEGlike/mito-blend)
+Much thanks to pcbway for sponsoring this project, the video is in the making, stay tuned! The PCBs and stencil are very high quality!!
 
 ## Gallery
 
-![close up of pcb](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/01000006536.jpg)
 ![back of pcb](https://cloud-1shpt6j7k-hack-club-bot.vercel.app/01000006542.jpg)
-![pcb with switches](https://cloud-lv4je0doo-hack-club-bot.vercel.app/011000006537.jpg)
-![pcb with switches](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/21000006538.jpg)
 ![back of pcb with nrf52833](https://cloud-r0p5ii4ak-hack-club-bot.vercel.app/31000006539.jpg)
 
 ## Name
 
 Inspired by the mitosis of cells
-
-## Sponsor
-
-Much thanks to pcbway for sponsoring this project, the video is in the making, stay tuned
