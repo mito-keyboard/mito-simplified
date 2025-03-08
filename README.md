@@ -1,11 +1,6 @@
-# Mito
+# Mito PCB
 
-A split wireless low profile mechanical keyboard with rgb
-
-## WIP
-
-The solder paste hans't arrived yet, its been 2 months😭
-Same for the filament i want to use
+The pcb for my [custom keyboard](https://github.com/KOEGlike/mito)
 
 ## Features
 
