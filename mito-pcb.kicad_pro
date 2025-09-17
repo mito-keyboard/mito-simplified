@@ -113,6 +113,7 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -472,6 +473,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -747,24 +749,8 @@
       "left"
     ],
     [
-      "c494d7b9-5248-4bdc-95a2-93f561ccab0b",
-      "leds"
-    ],
-    [
       "8d53595d-91b9-4d70-adec-5245477c92d0",
       "right"
-    ],
-    [
-      "c494d7b9-5248-4bdc-95a2-93f561ccab0b",
-      "leds"
-    ],
-    [
-      "a60d275f-cdae-4fef-bb61-3feb0db9295b",
-      "power"
-    ],
-    [
-      "a60d275f-cdae-4fef-bb61-3feb0db9295b",
-      "power"
     ]
   ],
   "text_variables": {}
