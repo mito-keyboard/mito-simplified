@@ -1721,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 127) (xy 41.91 124.46)
+			(xy 41.91 125.73) (xy 41.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 41.91 127)
+			(xy 34.29 125.73) (xy 41.91 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2470,7 @@
 		(uuid "39f621c6-27f9-47a9-b4a3-442dd73c6488")
 	)
 	(label "VBAT"
-		(at 34.29 127 0)
+		(at 34.29 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,7 +5539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-SMD"
+		(property "Footprint" "mito-simplified:XIAO-nRF52840-SMD"
 			(at 40.64 97.79 0)
 			(effects
 				(font
