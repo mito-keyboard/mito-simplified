@@ -18,6 +18,8 @@ You can download it from [github](https://github.com/mito-keyboard/mito-simplifi
 
 We also need to download the library for the switches, we will be using [marbastlib](https://github.com/ebastler/marbastlib), you can find the installation instructions in the repo
 
+Also instal [panelization.pretty](https://github.com/madworm/Panelization.pretty) for mousebites
+
 ## Schematic
 
 Now we can start creating our schematic.
@@ -67,14 +69,16 @@ and a diode `D` (you will see later why we need this):
 
 ### Keyboard Matrix
 
-You may be wondering, why did we need to place down a diode???? You may also notice that the xiao doesn't have enough pins for a full half of a split keyboard. In comes the humble keyboard matrix, with it we only have to connect one pin per column and row, drastically reducing teh number of pins needed for a keyboard.
+You may be wondering, why did we need to place down a diode???? You may also notice that the xiao doesn't have enough pins for a full half of a split keyboard. In comes the humble keyboard matrix, with it we only have to connect one pin per column and row, drastically reducing the number of pins needed for a keyboard.
 
-The matrix works by giving power to each column one at a time, and checking which keys are pressed down in that column. We need diodes to prevent *ghosting*, where by pressing one key the keyboard detects more then one keypress. If you want you can read into [keyboard matrixes here](https://docs.qmk.fm/how_a_matrix_works)
+The matrix works by giving power to each column one at a time, and checking which keys are pressed down in that column. We need diodes to prevent *ghosting*, where by pressing down one key, the keyboard detects more then one keypress. If you want you can read into [keyboard matrixes here](https://docs.qmk.fm/how_a_matrix_works)
 
 For now all you need to know is that every key has its own diode, this is like one unit:
+
 ![image of diode and button](https://hc-cdn.hel1.your-objectstorage.com/s/v3/33681c7410a242de5ab273f34b54981f62390f1e_image.png)
 
 You can now make a matrix out of these *units*, you have to connect the switches to the columns, and the diodes to the rows. In this example in one row I only have one button, which is for my thumb:
+
 ![image of complete keyboard matrix](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8c6b3592f3e6753ceb8ae607c27ebd0e00642e0b_image.png)
 
 You may notice that there are *labels*, like `COL0`, `COL1`, etc. and `ROW0` and `ROW1`. You can place these using the <kbd>L</kbd> shortcut or from the right sidebar. We can use labels to clean up our schematic, instead of routing from our xiao to the column, we just place a label with the same name at the column and one at the xiao's pin:
@@ -101,14 +105,24 @@ And then add the corresponding label (`BT_PIN` in our my case) to the xiao, make
 
 ![xiao with battery sense](https://hc-cdn.hel1.your-objectstorage.com/s/v3/68369d14d01bcd017b65245544f49e787819f39e_image.png)
 
-### Footprints
+### Mounting points
+
+Add mounting point symbols to the left/right schematics
+
+### Mousebites
+
+You should add three mounting points to the root sheet, we will assign mousebite footprints to these later on
+
+![mounting symbols](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5b231b23c9059899a5ae47f747ec0d6b5d030035_image.png)
+
+## Footprints
 
 Your done with you schematic!!! 
 
 Here is how mine looks:
 ![image of authors schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ee8f02e3d22dab1d87f76df884054d016a0411cf_image.png)
 
-Now its time to assign some footprints! First, open the foot prints assigner tool.
+Now its time to assign some footprints! First, open the footprint assigner tool.
 
 For the xiao assign the custom footprint that you downloaded earlier, its name should be `modified-XIAO-nRF52840-SMD`
 
@@ -116,4 +130,29 @@ For the buttons I used chalk hotswap sockets from `marbastlib`, but you can use 
 
 For the diodes I used `1N5819` which are SMD, so its a bit harder to solder, but I recommend them if you want a compact design, and don't want to place THT diodes not next to the switches,rather some other place on the PCB. The footprint for this is `Diode_SMD:D_SOD-123`
 
-For the resistors I recommend `Resistor_SMD:R_0805_2012Metric` 
+For the resistors I recommend `Resistor_SMD:R_0805_2012Metric`, but you can use any other package.
+
+For the mousebites/breakoffs assign the `panelization:mouse-bite-5mm-slot` footprints
+
+For the testpoints/battery pads I used `TestPoint:TestPoint_Pad_D2.0mm`, but you can use larger.
+
+## PCB
+
+This part is basically the same as hackpad, so layout, then routing, except for the mousebites. So in this section I will give some tips for laying out a split keyboard
+
+Here is my final pcb:
+![pcb](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ac8bc9cfffae5f68557d8226a8db07c000685a9e_image.png)
+
+### If the two half are symmetrical
+
+then you should make the edge.cuts for one half, select all the edge.cuts, right click, and `flip horizontal`, and now you have two symmetrical edge.cuts
+
+### Mousebites layout
+
+You should find two flat side of you two pcbs, place the mousebites there, and edit the edge cuts so it matches the mousebites footprint template:
+
+![flat side with mousebites](https://hc-cdn.hel1.your-objectstorage.com/s/v3/23e81cdffe61fe6fedf424bdde600486798ad084_image.png)
+
+## Firmware
+
+You will have to use the [ZMK](https://zmk.dev/docs) firmware, ZMK has excellent documentation and tutorials, and it explains it better then I could. It has a learning curve, but there is no getting around that
